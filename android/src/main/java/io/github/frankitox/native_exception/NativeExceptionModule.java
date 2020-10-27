@@ -20,8 +20,12 @@ public class NativeExceptionModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void sampleMethod(String stringArgument, int numberArgument, Callback callback) {
-        // TODO: Implement some actually useful functionality
-        callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
+    public void raiseNativeError() throws Exception {
+      throw new Exception("EXCEPTION ON ANDROID");
+    }
+
+    @ReactMethod
+    public void raiseNativeError(String message) throws Exception {
+      throw new Exception(message);
     }
 }
