@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package io.github.frankitox.native_exception;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
