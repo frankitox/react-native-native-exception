@@ -2,7 +2,7 @@
   "name": "react-native-native-exception",
   "title": "React Native Native Exception",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Utiliy to raise a native exception",
   "main": "index.js",
   "files": [
     "README.md",
@@ -23,8 +23,8 @@
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Franco Biasin",
+    "email": "franconbiasin@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
